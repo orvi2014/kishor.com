@@ -1,28 +1,54 @@
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic);
+
+* {
+  margin: auto;
+  font-family: 'Noto Serif KR', sans-serif;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #4CAF50;
-  display: inline;
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #29a93c;
 }
 
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
+.logo {
+  width: 20%;
+  float: left;
+  color: #ecf0f1;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 40px;
+  font-family: inherit;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li a {
   text-decoration: none;
-  font-size: 17px;
+  float: left;
+  padding: 4px 14px;
+  text-align: center;
+  color: #ecf0f1;
+  margin-right: 15px;
+  margin-top: 11px;
+  font-size: 14px;
+  font-family: inherit;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+#navbar ul li a:hover {
+  color: #ecf0f1;
+  text-shadow: 0px 2px 1px #16a085;
 }
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul {
+  float: right;
 }
